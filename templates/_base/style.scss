@@ -1,0 +1,120 @@
+$originalRed: #990000;
+$originalYellowDark: #fbd603;
+$originalYellowLight: #faE255;
+$originalWhite: #e9e8ea;
+$originalBlack: #0a0a0a;
+$originalGrey: #666666;
+
+$accentOrange: #de5826;
+$accentYellow: #faa916;
+$accentBlueLight: #2ec4b6;
+$accentGreen: #8fd694;
+$accentPurple: #80217f;
+$accentBlueDark: #1979b9;
+
+$sansserifFont: 'Poppins', sans-serif;
+
+$serifFont: 'Source Serif Pro', serif;
+
+#container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-left: 1px solid $originalBlack;
+    border-bottom: 14px solid $originalBlack;
+    border-top: 1px solid $originalBlack;
+    border-right: 1px solid $originalBlack;
+    box-shadow: 5px 5px 10px gainsboro;
+    max-width: 600px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#legend {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: $sansserifFont;
+    color: $originalBlack;
+    font-size: 12px;
+}
+
+text {
+    font-family: $sansserifFont;
+    color: $originalBlack;
+}
+
+.svg-text {
+    display: contents;
+}
+
+.legend-text {
+    margin-left: 5px;
+}
+
+.legend-svg2 {
+    margin-left: 15px;
+}
+
+.legend-svg3 {
+    margin-left: 15px;
+}
+
+.legend-svg4 {
+    margin-left: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+    /* optional media queries */
+}
+
+@media only screen and (max-width: 450px) {
+
+    /* media query for h1 */
+    h1 {
+        font-size: 18px;
+    }
+}
+
+h1 {
+    font-family: $sansserifFont;
+    font-weight: 600;
+    font-size: 24px;
+    fill: #2c2c2c;
+    margin-bottom: -2px;
+    margin-top: 10px;
+    line-height: 1.2;
+}
+
+h2 {
+    font-family: $serifFont;
+
+    fill: grey;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.2;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+h3 {
+    font-family: $sansserifFont;
+    fill: grey;
+    font-weight: 300;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+h4 {
+    font-family: $sansserifFont;
+    fill: grey;
+    font-weight: 300;
+    font-size: 12px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
