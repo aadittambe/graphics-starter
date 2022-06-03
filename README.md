@@ -110,3 +110,4 @@ Thank you to the following resources:
 - [data-visuals-create](https://github.com/texastribune/data-visuals-create) from The Texas Tribune
 - [D3 charts](https://github.com/thegazettedata/d3charts) from The Gazette
 - [Pym.js](http://blog.apps.npr.org/pym.js/) from NPR Visuals
+- [D3 graph gallery](https://d3-graph-gallery.com/about.html) by Yan Holtz, for help with D3 code
