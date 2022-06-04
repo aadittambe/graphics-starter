@@ -37,10 +37,10 @@ grunt create --slug=name_of_project --template=template_here
 ```
 
 This generator, currently accepts the following chart templates: 
-- simple-bar
-- stacked-bar
-- compare-bar
-- line
+- [simple-bar](https://aadittambe.github.io/graphics-starter/production/testBar/)
+- [stacked-bar](https://aadittambe.github.io/graphics-starter/production/testStackedBar/)
+- [compare-bar](https://aadittambe.github.io/graphics-starter/production/testCompareBars/)
+- [line](https://aadittambe.github.io/graphics-starter/production/testLine/)
 
 Once the `grunt create` command is run, a new directory within the `projects` directory will be created, named after the `slug` parameter. For instance, if you run the command `grunt create --slug=gas-prices --template=line`, a directory named `gas-prices` will be created in the `projects` directory, with the line chart template.
 
