@@ -1,5 +1,5 @@
 # 🎒 Graphics starter
-> A stater kit for building responsive D3 charts
+> A starter kit for building responsive D3 charts
 
 This is a framework for creating and deploying responsive D3 graphics, built using Grunt. 
 
