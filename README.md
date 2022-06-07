@@ -4,8 +4,8 @@
 This is a framework for creating and deploying responsive D3 graphics, built using Grunt. 
 
 Key features:
-- 🍪 Produce quick-turn cookie-cutter D3 charts with templates.
-- 🎨 Support for compiling SASS.
+- 🍪 Produce quick-turn cookie-cutter D3 charts from templates.
+- 🎨 Includes support for compiling SASS.
 - 📱 Embed charts in IFrames responsively, with Pym.js.
 
 ## Installation
@@ -16,13 +16,13 @@ First, install Node:
 brew install node
 ```
 
-Clone this repository, and install npm dependencies:
+Clone this repository, and install `npm` dependencies:
 
 ```
 npm install
 ```
 
-Next, install Grunt to be able to create, test and build graphics:
+Next, install Grunt to create, test and build graphics:
 
 ```
 sudo npm install -g grunt-cli
@@ -42,7 +42,7 @@ This generator, currently accepts the following chart templates:
 - [compare-bar](https://aadittambe.github.io/graphics-starter/production/testCompareBars/)
 - [line](https://aadittambe.github.io/graphics-starter/production/testLine/)
 
-Once the `grunt create` command is run, a new directory within the `projects` directory will be created, named after the `slug` parameter. For instance, if you run the command `grunt create --slug=gas-prices --template=line`, a directory named `gas-prices` will be created in the `projects` directory, with the line chart template.
+The `grunt-create` command creates a new directory inside the `projects` folder, with the name of the project. For instance, running `grunt create --slug=gas-prices --template=line` will create a directory named `projects/gas-prices` directory, with a line chart template.
 
 ## Test a project
 
@@ -52,7 +52,7 @@ To run a live server to develop a graphic, run:
 grunt serve --slug=name_of_project
 ```
 
-Visit <a href="http://localhost:8000/">`http://localhost:8000/`</a> to preview the graphic.
+Once the server is started, visit <a href="http://localhost:8000/">`http://localhost:8000/`</a> to preview the graphic.
 
 ## Build a project
 
@@ -86,7 +86,7 @@ Push the changes:
 git push origin main
 ```
 
-Wait for a minute or two, and then visit the following URL to view the project:
+Wait a minute or two, and the project will be published at a URL in the format:
 
 ```
 <username>.github.io/graphics-starter/production/<name_of_the_project>
